@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* sass-intro
+ *
+ * /sass/styles.scss - Main stylesheet
+ * by Gabriel
+ */
+/*
+ * /sass/settings/_colors.scss - Global color variables
+ * by Gabriel
+ */
+/*
+ * /sass/settings/_fonts.scss - Global fonts variables
+ * by Gabriel!
+ */
+@font-face {
+  font-family: 'Glyphs';
+  src: url("../assets/fonts/fontawesome/fontawesome-webfont.eot");
+  src: url("../assets/fonts/fontawesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/fontawesome/fontawesome-webfont.woff2") format("woff2"), url("../assets/fonts/fontawesome/fontawesome-webfont.woff") format("woff"), url("../assets/fonts/fontawesome/fontawesome-webfont.ttf") format("truetype"), url("../assets/fonts/fontawesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Arvo-Bold';
+  src: url("../assets/fonts/arvo/Arvo-Bold.eot");
+  src: url("../assets/fonts/arvo/Arvo-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/arvo/Arvo-Bold.woff") format("woff"), url("../assets/fonts/arvo/Arvo-Bold.ttf") format("truetype"), url("../assets/fonts/arvo/Arvo-Bold.svg#Arvo-Bold") format("svg"); }
+
+@font-face {
+  font-family: 'Arvo';
+  src: url("../assets/fonts/arvo/Arvo-Regular.eot");
+  src: url("../assets/fonts/arvo/Arvo-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/arvo/Arvo-Regular.woff") format("woff"), url("../assets/fonts/arvo/Arvo-Regular.ttf") format("truetype"), url("../assets/fonts/arvo/Arvo-Regular.svg#Arvo") format("svg"); }
+
+.fontpro, .fontpro-35678 {
+  font-family: 'Arvo',sans-serif; }
+
+/* sass-intro
+ *
+ * /sass/settings/_size.scss - Global size variables
+ * by Gabriel
+ */
+/*
+ * /sass/generic/_reset.scss - Reset styles
+ * by Gabriel
+ */
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/*wrapper*/
+body {
+  font-family: Arvo, "Helvetica neue", "Helvetica", sans-serif; }
+
+.wrapper {
+  background-color: #292929;
+  line-height: 1.5;
+  margin: 10px auto;
+  width: 88%; }
+
+/*section*/
+section {
+  color: white;
+  display: block;
+  margin: 0 auto;
+  min-height: 520px;
+  padding-top: 100px;
+  width: 960px; }
+
+.about__article {
+  display: inline-block; }
+
+.about__heading {
+  display: inline-block;
+  font-family: "Arvo-Bold";
+  font-size: 1.875em;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  text-transform: uppercase; }
+
+.about__figure {
+  background-image: url("../img/wall1.png");
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  float: left;
+  margin-left: -100px;
+  min-height: 470px;
+  padding-top: 30px;
+  width: 50%; }
+  .about__figure img {
+    box-shadow: 0 0 4px 1px #232323;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; }
+
+.about__content {
+  float: left;
+  margin-left: 30px;
+  width: 430px; }
+
+.about__contact a {
+  margin-right: 20px; }
+
+.about__contact {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px; }
+
+.contact > a, .about a {
+  color: coral;
+  text-decoration: none; }
+
+.projet__figure {
+  background-image: url("../img/wall1.png");
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  float: right;
+  margin-right: -100px;
+  min-height: 470px;
+  padding-top: 30px;
+  width: 50%; }
+
+.projet__content {
+  width: 430px; }
+
+.projet__links {
+  display: inline-block;
+  margin-top: 20px; }
+
+.projet__link-github {
+  background-color: #FFFFFF;
+  font-size: 1.435em;
+  color: #333;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 24px;
+  margin-right: 30px; }
+
+.projet__link-github:hover, .projet__link-github:focus {
+  background-color: #c3c3c3; }
+
+.projet__link-github::before {
+  font-family: "Glyphs";
+  content: " "; }
+
+.projet__link-live {
+  background-color: coral;
+  font-size: 1.435em;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 24px; }
+
+.projet__link-live:hover {
+  background-color: #cd6641; }
+
+.projet__link-live::before {
+  font-family: "Glyphs";
+  content: " "; }
+
+.projet__heading {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: "Arvo-Bold";
+  font-size: 1.875em;
+  text-transform: uppercase; }
+
+.projet img {
+  box-shadow: 0 0 4px 1px #232323;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; }
+
+/*# sourceMappingURL=styles.css.map */

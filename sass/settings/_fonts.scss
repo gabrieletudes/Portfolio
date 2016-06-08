@@ -1,0 +1,41 @@
+/*
+ * /sass/settings/_fonts.scss - Global fonts variables
+ * by Gabriel!
+ */
+//General font
+$textFont: Roboto, "Helvetica neuea" ,Helvetica, Arial, sans-serif;
+
+// Fontawesome
+@font-face {
+    font-family: 'Glyphs';
+    src: url('../assets/fonts/fontawesome/fontawesome-webfont.eot');
+    src: url('../assets/fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/fontawesome/fontawesome-webfont.woff2') format('woff2'),
+         url('../assets/fonts/fontawesome/fontawesome-webfont.woff') format('woff'),
+         url('../assets/fonts/fontawesome/fontawesome-webfont.ttf') format('truetype'),
+         url('../assets/fonts/fontawesome/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Arvo de Anton Kovit
+@font-face {
+  font-family: 'Arvo-Bold';
+  src: url('../assets/fonts/arvo/Arvo-Bold.eot');
+  src: url('../assets/fonts/arvo/Arvo-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/arvo/Arvo-Bold.woff') format('woff'),
+       url('../assets/fonts/arvo/Arvo-Bold.ttf') format('truetype'),
+       url('../assets/fonts/arvo/Arvo-Bold.svg#Arvo-Bold') format('svg');
+}
+
+@font-face {
+  font-family: 'Arvo';
+  src: url('../assets/fonts/arvo/Arvo-Regular.eot');
+  src: url('../assets/fonts/arvo/Arvo-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/arvo/Arvo-Regular.woff') format('woff'),
+       url('../assets/fonts/arvo/Arvo-Regular.ttf') format('truetype'),
+       url('../assets/fonts/arvo/Arvo-Regular.svg#Arvo') format('svg');
+}
+.fontpro,.fontpro-35678 {
+  font-family: 'Arvo',sans-serif;
+}
