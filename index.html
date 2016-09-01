@@ -13,73 +13,155 @@
 <body>
     <main>
         <div class="wrapper">
-            <section class="about">
-            <article class="about__article">
-                <figure class="about__figure">
-                    <img src="./img/profile.png" alt="Profile picture" />
-                </figure>
-                <h1 class="about__heading">Un Graphiste polyvalent</h1>
-                    <p class="about__content">Je m'appelle Gabriel et je vient d'je vient d'Amérique latin plus précisément de la République Dominicaine mais Venons au sujet, Je suis un Graphiste Polyvalent qui trouve fascinant le monde du web, je me tient a jour en lissent de magazines comme
-                        <a href="http://www.webdesignermagazine.nl/"> webdesignermagazine en neerlandais</a> ( oui je parle néerlandais ) ou en lissent des articles sur des blogs comme <a href="https://www.smashingmagazine.com/"> Smashing Magazine</a> ou <a href="https://medium.com/">MEDIUM</a> un site avec des articles varies.Plus bas vous pouvez consulter mes realisations.</p>
-                    <div class="about__contact">
-                        <a href="tel:+32 496 531 542" data-rel="external">Tel: +32 496 531 542</a>
-                        <a href="mailto:gabrieletudes@gmail.com" data-rel="external">Email: gabrieletudes@gmail.com</a>
+            <header>
+                <nav class="main-nav">
+                    <h1 class="logo">Main navigation</h1>
+                    <ul class="main-nav__list">
+                        <li class="main-nav__elt">
+                            <a class="main-nav__link main-nav__link--icon-home" href="#">Home</a>
+                        </li>
+                        <li class="main-nav__elt">
+                            <a class="main-nav__link main-nav__link--icon-projects" href="#section-projects">Projects</a>
+                        </li>
+                        <li class="main-nav__elt">
+                            <a class="main-nav__link main-nav__link--icon-about" href="#section-about">About</a>
+                        </li>
+                        <li class="main-nav__elt">
+                            <a class="main-nav__link main-nav__link--icon-contact" href="#section-contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="media">
+                    <div class="phrase">
+                        <p class="phrase__content">I'm here to help you build, your online Pressence</p>
+                        <a class="bouton__callout" href="#"> Put me to work</a>
                     </div>
-                </article>
-                </section>
-                <section class="projet">
-                    <article class="projet__article">
-                        <figure class="projet__figure">
-                            <img src="./img/baobab.png" alt="Profile picture" />
+                </div>
+            </header>
+            <section id="section-projects" class="projects">
+                <div class="projects__wrapper wrapper--dark-bg projects__wrapper--triangle-one">
+                    <h1 class="projects__heading">Projects</h1>
+                    <article class="project__article">
+                        <figure class="project__figure project__figure--to-left">
+                            <img src="./img/Group7.png" width="380" height="335" alt="Profile picture" />
                         </figure>
-                    <h2 class="projet__heading">Sur Un Baobab</h2>
-                        <p class="projet__content">Sur Un Baobab est un projet organise par Elena & François, qui voyageons en proposant un atelier itinérant de cinéma d’animation qui s’inscrit dans le soutien d’une cause sociale. Ils en colaboration avec mes professeurs ont fait un concours pour la refonte de leur site qui devait etre integre en Wordpress, trouvez ici ma proposition</p>
-                        <div class="projet__links">
-                            <a class="projet__link-github" href="https://github.com/gabrieletudes/Sur-un-baobab">Github</a>
-                            <a class="projet__link-live" href="http://baobab.martinz.be/">View Live</a>
+                        <div class="project__container project__container--to-left">
+                            <h2 class="project__heading">Sur Un Baobab</h2>
+                            <p class="project__description">The Redesing of Sur un Baobab was a project organized by Elena and François ( the owners of the website ) and my teachers at HEPL. This project helped me have a better understanding of wordpress and how to implement the client’s need.</p>
+                            <div class="project__links">
+                                <a class="project__link-github" href="https://github.com/gabrieletudes/Sur-un-baobab">Github</a>
+                                <a class="project__link-live" href="http://baobab.martinz.be/">View Live</a>
+                            </div>
                         </div>
                     </article>
-                    </section>
-                    <section class="projet">
-                        <article class="projet__article">
-                            <figure class="projet__figure">
-                                <img src="./img/cv.png" alt="Profile picture" />
-                            </figure>
-                        <h2 class="projet__heading">Mon CV</h2>
-                            <p class="projet__content">Ceci est mon CV que j'ai réalise pour le cours de Design web, on devait essayer de faire le mémé design que le site originaux.</p>
-                            <div class="projet__links">
-                                <a class="projet__link-github" href="https://github.com/gabrieletudes/Mon-CV">Github</a>
-                                <a class="projet__link-live" href="http://hepl01.cblue.be/~user30/dw/cv/">View Live</a>
-                            </div>
-                        </article>
-                        </section>
-                        <section class="projet">
-                            <article class="projet__article">
-                                <figure class="projet__figure">
-                                    <img src="./img/csszen.png" alt="Profile picture" />
-                                </figure>
-                            <h2 class="projet__heading">CssZenGarden</h2>
-                                <p class="projet__content">Ceci est mon CssZenGarden que j'ai réalise pour le cours de Design web, on devait essayer de faire le design par rapport à un thème aux chois.</p>
-                                <div class="projet__links">
-                                    <a class="projet__link-github" href="https://github.com/gabrieletudes/csszengarden">Github</a>
-                                    <a class="projet__link-live" href="http://hepl01.cblue.be/~user30/dw/csszg/">View Live</a>
-                                </div>
-                            </article>
-                    </section>
-                    <section class="projet">
-                        <article class="projet__article">
-                            <figure class="projet__figure">
-                                <img src="./img/jeux-pendu.png" alt="Profile picture" />
-                            </figure>
-                        <h2 class="projet__heading">Jeux du Pendu</h2>
-                            <p class="projet__content">Ceci est le design integre de mon Jeux du Pendu fait en PHP dans le cours de Développement côté serveur.</p>
-                            <div class="projet__links">
-                                <a class="projet__link-github" href="https://github.com/gabrieletudes/Jeux-du-pendu">Github</a>
-                                <a class="projet__link-live" href="http://hepl01.cblue.be/~user30/devserv/pendu/">View Live</a>
-                            </div>
-                        </article>
-                </section>
                 </div>
-            </main>
-        </body>
-        </html>
+                <div class="projects__wrapper wrapper--light-bg projects__wrapper--triangle-two">
+                    <article class="project__article">
+                        <div class="project__container">
+                            <h2 class="project__heading">Sur Un Baobab</h2>
+                            <p class="project__description">The Redesing of Sur un Baobab was a project organized by Elena and François ( the owners of the website ) and my teachers at HEPL. This project helped me have a better understanding of wordpress and how to implement the client’s need.
+                            </p>
+                            <div class="project__links">
+                                <a class="project__link-github" href="https://github.com/gabrieletudes/Sur-un-baobab">Github</a>
+                                <a class="project__link-live" href="http://baobab.martinz.be/">View Live</a>
+                            </div>
+                        </div>
+                        <figure class="project__figure">
+                            <img src="./img/Group_8.png" width="380" height="335" alt="Profile picture" />
+                        </figure>
+                    </article>
+                </div>
+                <div class="projects__wrapper wrapper--dark-bg projects__wrapper--triangle-one">
+                    <article class="project__article">
+                        <figure class="project__figure project__figure--to-left">
+                            <img src="./img/Group_8.png" width="380" height="335" alt="Profile picture" />
+                        </figure>
+                        <div class="project__container project__container--to-left">
+                            <h2 class="project__heading">Rail to Rail</h2>
+                            <p class="project__description">This was a project for the course Webdeisgn at HEPL. It helped me have a better understanding of mobile - wireframes and how to design a mobile app.</p>
+                            <div class="project__links">
+                                <a class="project__link-github" href="https://github.com/gabrieletudes/Sur-un-baobab">Github</a>
+                                <a class="project__link-live" href="http://baobab.martinz.be/">View Live</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="projects__wrapper wrapper--light-bg projects__wrapper--triangle-two">
+                    <article class="project__article">
+                        <div class="project__container">
+                            <h2 class="project__heading">Sur Un Baobab</h2>
+                            <p class="project__description">The Redesing of Sur un Baobab was a project organized by Elena and François ( the owners of the website ) and my teachers at HEPL. This project helped me have a better understanding of wordpress and how to implement the client’s need.</p>
+                            <div class="project__links">
+                                <a class="project__link-github" href="https://github.com/gabrieletudes/Sur-un-baobab">Github</a>
+                                <a class="project__link-live" href="http://baobab.martinz.be/">View Live</a>
+                            </div>
+                        </div>
+                        <figure class="project__figure">
+                            <img src="./img/Group_8.png" width="380" height="335" alt="Profile picture" />
+                        </figure>
+                    </article>
+                </div>
+</section>
+<section id="section-about" class="about">
+    <div class="about__wrapper wrapper--dark-bg">
+    <h1>About</h1>
+    <article class="about__article">
+        <div class="about__container">
+        <h1 class="about__heading">Front-end developer</h1>
+        <p class="about__content">
+            Hi, my name is Gabriel and I'm originary from Dominican Republic but I live in Belgium where I do a Bachelor’s Degree in Computer Graphic Design option Web at HEPL, I like to dance latin music ( salsa, merengue, bachata… ), read issues such as <a href="http://www.webdesignermagazine.nl/">webdesignermagazine</a> ( in dutch ), read articles on sites like <a href="https://medium.com/">Medium</a> or <a href="https://www.smashingmagazine.com/">Smashing Magazine</a> and help clients bring their ideas into a functional website.
+        </p>
+        <div class="about__tools">
+            <h2 class="about__tools-heading">Tools I like</h2>
+            <a href="">Pen&Paper</a>
+            <a href="">Sketch</a>
+            <a href="">Atom</a>
+            <a href="">Sass</a>
+            <a href="">Wordpress</a>
+        </div>
+        </div>
+        <div class="about__figure">
+            <h3 class="about__name">Gabriel Martinez</h3>
+            <img src="./img/profile.png" width="317" height="428" alt="Profile picture" />
+        </div>
+        </article>
+    </div>
+    </section>
+    <footer id="section-contact" class="contact">
+        <div class="contact__wrapper wrapper--light-bg">
+        <article class="about__article">
+            <h1>Contact</h1>
+            <p class="contact__content">
+                I’m currently looking for an internship, so if you like what you see, want to learn how to dance salsa or have any comment, <a href="tel:+32 496 531 542" data-rel="external">drop me a call +32 496 531 542</a> or <a href="mailto:gabrieletudes@gmail.com" data-rel="external">send me an email at gabrieletudes@gmail.com</a>
+            </p>
+            <div class="contact__container">
+            <form class="form">
+                <div class="form__nom">
+                    <label class="form__label" for="nom"> Your name *</label>
+                    <input class="form__input" type="text" id="nom" name="nom" placeholder="ex. Marco Polo">
+                </div>
+                <div class="form__email">
+                    <label class="form__label" for="email">Your email *</label>
+                    <input class="form__input form__input-email" type="email" id="email" name="email" placeholder="ex. my@email.com">
+                </div>
+                <div class="form__message">
+                    <label class="form__label" for="msg">Message *</label>
+                    <textarea class="form__textarea" id="msg" name="user_message" placeholder="Writte your message here…."></textarea>
+                </div>
+                <div class="form__button">
+                    <button class="form__submit" type="submit">Send message</button>
+                </div>
+            </form>
+            </article>
+        </div>
+    </footer>
+<!--<section class="contact">
+    <div class="about__contact">
+        <a href="tel:+32 496 531 542" data-rel="external">Tel: +32 496 531 542</a>
+        <a href="mailto:gabrieletudes@gmail.com" data-rel="external">Email: gabrieletudes@gmail.com</a>
+    </div>
+</section>-->
+</div>
+</main>
+</body>
+</html>

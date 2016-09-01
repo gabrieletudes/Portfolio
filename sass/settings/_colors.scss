@@ -4,18 +4,17 @@
  */
 
 
+//backgroundColors
+$backgroundColorDark: #27384D;
+$backgroundColorLight: #EAEAEA;
+$backgroundColorName: #2D8565;
 
-$backgroundColor: rgb(32, 32, 32);
 
 //Text color
-$textLink: white;
+$textLink: $backgroundColorName;
 $textColor: white;
 
-//Links
-$linkBcgColor: #205D86;
+//buttons
+$buttonBcgColor: #ff4e50;
 
-$linkBcgColor: #02bd6e;
-
-$linkBorder: #143B55;
-
-$linkHoverColor: #F26052;
+$buttonHoverColor: #cf4445;
